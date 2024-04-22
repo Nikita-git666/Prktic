@@ -8,3 +8,5 @@ def start_interface():
 def main():
 	parser_start = subparsers.add_parser('start')
         parser_start.set_defaults(command='start')
+	
+        args = parser.parse_args()
