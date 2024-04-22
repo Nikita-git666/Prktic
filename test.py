@@ -7,3 +7,4 @@ def start_interface():
 	print ("-----------------------")
 def main():
 	parser_start = subparsers.add_parser('start')
+        parser_start.set_defaults(command='start')
