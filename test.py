@@ -7,7 +7,6 @@ def main():
 	if hasattr(args, 'command'):
         
             start_interface()
-        parser.print_help()
 
 if __name__ == "__main__":
     main()
